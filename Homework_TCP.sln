@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_TCP", "Homework_TCP\Homework_TCP.csproj", "{383D65F2-D694-4D38-B3E6-6589B390F37C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TCP", "TCP", "{6B98A0D7-0930-4367-A10B-540C898DFCF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{AAB29486-974F-4825-83D6-65AB5398B248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{62DEBFEF-ECD2-4B7F-9B52-BE08FD5C3435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{4BCFD237-5EC1-47FE-B5C7-6218ABC5E9B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383D65F2-D694-4D38-B3E6-6589B390F37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D65F2-D694-4D38-B3E6-6589B390F37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D65F2-D694-4D38-B3E6-6589B390F37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D65F2-D694-4D38-B3E6-6589B390F37C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAB29486-974F-4825-83D6-65AB5398B248} = {6B98A0D7-0930-4367-A10B-540C898DFCF2}
+		{62DEBFEF-ECD2-4B7F-9B52-BE08FD5C3435} = {6B98A0D7-0930-4367-A10B-540C898DFCF2}
+		{4BCFD237-5EC1-47FE-B5C7-6218ABC5E9B2} = {6B98A0D7-0930-4367-A10B-540C898DFCF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12E2918D-794D-413A-88AE-FFE1F7E78990}
+	EndGlobalSection
+EndGlobal
